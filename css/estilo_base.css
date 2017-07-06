@@ -1,0 +1,183 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+
+.bodyContent{
+width: 960px;
+height: auto;
+margin: 3% auto 0px;
+background-image: url(../img/img_1.png);
+background-repeat: no-repeat;
+background-position: 0px;
+}
+
+
+.contentPlazoFijo{
+width: 450px;
+height: auto;	
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+	margin: 0px;
+}
+
+.header{
+    width: 500px;
+    height: auto;
+    background-color: #14366A;
+    padding: 20px 8px;
+}
+
+.contentOperacion {
+    background-color: #333;
+    width: 500px;
+    padding: 20px 8px;
+}
+
+.contentOperacion div {
+    margin-bottom: 10px;
+}
+
+.contentResultado{
+	display: none;
+    background-color: #335993;
+    padding: 15px 8px;
+    width: 500px;
+}
+
+.open{
+    display: block;
+}
+
+label{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #c1c1c1;
+    display: block;
+    padding-bottom: 5px;
+}
+
+select{
+    border-radius: 3px;
+    height: 30px;
+    width: 150px;
+	border:0px;
+}
+
+input[type="text"]{
+    border-radius: 3px;
+    height: 30px;
+    width: 150px;
+    padding-left: 4px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+button{
+    height: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: block;
+    margin-top: 30px;
+    border: none;
+    background-color: #3b7fc4;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #4796e6;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#resultadoBanco{
+margin-top: 10px;
+}
+
+p{
+    color: #c1c1c1;
+    display: block;
+    margin: 0px;
+    min-height: 30px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.invalid{
+    background-color: #f79494;
+    border: 1px solid #d64747 !important;
+}
+
+.valid{
+    background-color: #fff;
+	border: 1px solid #fff !important;
+}
+
+@media only screen and (max-width: 979px){
+
+.bodyContent {
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: none;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contentOperacion {
+    background-color: #333;
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+select {
+    border-radius: 3px;
+    height: 45px;
+    width: 100%;
+    border: 0px;
+}
+
+input[type="text"] {
+    border-radius: 3px;
+    height: 45px;
+    width: 100%;
+    border: 0px;
+}
+
+button {
+    height: 45px;
+    width: 100%;
+}
+
+.contentResultado {
+    background-color: #335993;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+}
