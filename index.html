@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plazo fijo</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilo_base.css" type="text/css" />
+
+
+	
+</head>
+<body>
+
+<div class="bodyContent">
+	
+<div id="contentPlazoFijo">
+<div class="header">
+	<h1>Simulación Plazo Fijo<h1>
+</div>
+
+<div class="contentOperacion">	
+	<div>
+		<label for="banco">Seleccione banco</label>
+		<select name="banco" id="banco">
+		<option value="ICBC">ICBC</option>
+		<option value="Santander">Santander</option>
+		<option value="Itau">Itau</option>
+		<option value="Macro">Macro</option>
+		<option value="Provincia">Provincia</option>
+		</select>
+	</div>
+	
+	<div>
+	    <label for="banco">Importe</label>
+		<input name="importe" class="valid" id="importe" type="text">
+	</div>	
+	
+	<div>	
+	<button type="button" id="cotizarPlazo" >Simular</button>
+	</div>
+</div>
+
+</div>
+
+<div id="resultadoPlazoFijo" class="contentResultado">
+<h1>Informe de Plazo Fijo</h1>
+
+<p id="resultadoBanco"></p>
+<p id="resultadoTaza"></p>
+<p id="inversion"></p>
+<p id="resultadoInteresesGanados"></p>
+<p id="resultadoTotal"></p>
+
+</div>
+
+</div>
+	
+<script type="text/javascript" src="js/configuracion.js"></script>
+<script type="text/javascript" src="js/calculo.js"></script>
+</body>
+</html>
